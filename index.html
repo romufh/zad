@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>مترجم المفردات العربية</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h4 class="site-title" id="siteTitle">زاد</h4>
+
+  <h6 class="loga">
+    <span>اكتشف</span>
+    <span>زادك</span>
+    <span>اليومي</span>
+    <span>من</span>
+    <span>العلم</span>
+    <span>والمعرفة</span>            
+  </h6>
+
+  <audio id="titleSound" src="https://www.soundjay.com/buttons/sounds/button-09a.mp3" preload="auto"></audio>
+
+  <div class="background-letters">
+    <span style="top: 10%; right: 5%;">ب</span>
+    <span style="top: 20%; left: 15%;">س</span>
+    <span style="top: 35%; right: 25%;">م</span>
+    <span style="top: 50%; left: 30%;">ا</span>
+    <span style="top: 65%; right: 15%;">ء</span>
+    <span style="top: 80%; left: 5%;">ن</span>
+    <span style="top: 90%; right: 35%;">ح</span>
+    <span style="top: 70%; left: 45%;">ر</span>
+  </div>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Islamic_Motif.svg/1024px-Islamic_Motif.svg.png" class="decor top-left">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Islamic_Motif.svg/1024px-Islamic_Motif.svg.png" class="decor bottom-right">
+
+  <div class="container">
+    <h2>مترجم المفردات العربية</h2>
+    <textarea id="inputText" placeholder="ادخل النص هنا..."></textarea>
+    <button onclick="translateWords()">ترجمة المفردات</button>
+    <button onclick="speakText()">تشغيل الصوت</button>
+    <div class="result" id="output"></div>
+  </div>
+
+  <audio id="dingSound" src="https://www.soundjay.com/buttons/sounds/button-3.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
